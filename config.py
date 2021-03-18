@@ -1,0 +1,15 @@
+class Config:
+    DEBUG = False
+    TESTING = False
+
+
+class DevelopmentConfig(Config):
+    DEBUG = True
+
+
+class TestingConfig(Config):
+    TESTING = True
+
+
+class ProductionConfig(Config):
+    SECRET_KEY = "\xbc\xd1\xf8\xc3\x8fs\xb7\xe7Yft\xf9\x0ebR\xb9\x10\xdfB\x8b\xbb\x9b{:O\xecG\x12\x1b\xe7\xee\xa2\xd55\x82\x12\xfe\x07$\x86\xa7\xbf\xaa\xc1\xef\xda\x94\x00<\xa0\xfdRe)\xa6\xb5\x7f\x88\xb3\xa7u4v "
